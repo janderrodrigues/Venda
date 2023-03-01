@@ -31,12 +31,12 @@ const cliente2 = {
     {console.log("Saldo insuficiente");}
     else {
       this.saldo -= valor;
-      console.log(`Pagamento realizado. Saldo atual de ${this.saldo}`);
+      console.log(`Pagamento realizado. Saldo atual de ${this.saldo}`);//=>SALDO APÓS A COMPRA DO CLIENTE
     }
   }
 }
 
-//SALDO APÓS A COMPRA DO CLIENTE
+//VALOR DE UM PRODUTO
 cliente2.efetuaPagamento(100);
 
 
